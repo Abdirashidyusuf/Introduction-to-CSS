@@ -1,1 +1,130 @@
 /* Your CSS goes here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+h4{
+    font-size: 1.5rem;
+     font-weight: 700;
+    text-transform: capitalize;
+}
+p{
+    font-size: 18px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.header{
+    background: blueviolet;
+    padding: 24px;
+}
+
+.logo h1{
+    color: #fff;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.navbar ul li {
+    list-style: none;
+    font-size: 18px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.hero{
+    background:  #F8C24A;
+    color: #fff;
+    text-align: center;
+}
+.hero  .container{
+    display: block; 
+}
+.hero h2{
+    font-size: 5.5rem;
+    font-weight: 600;
+    padding-top: 75px;
+    padding-bottom: 5px;
+}
+.hero h3{
+    font-size: 3.5rem;
+    font-weight: 300;
+    padding-bottom: 82px;
+}
+
+.about .container{
+    display: block;
+    background: gainsboro;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.about h3{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    font-size: 24px;
+}
+.about p{
+    width: 72%;
+    text-align: justify;
+    line-height:  1.7rem;
+    margin: auto;
+    padding-bottom: 82px;
+}
+
+.dish h3{
+    width: 75%;
+    text-align: center;
+}
+.dish p{
+    width: 75%;
+    text-align: justify;
+    padding-top: 25px;
+    padding-bottom: 36px;
+}
+.service h2{
+    width: 40%;
+    text-align: center;
+}
+.service p{
+    width: 40%;
+    text-align: justify;
+    padding-top: 25px;
+    padding-bottom: 36px;
+}
+
+.contact h2{
+    width: 60%;
+    text-align: center;
+}
+.contact p{
+    width: 60%;
+    padding-top: 25px;
+    padding-bottom: 36px;
+}
+footer{
+    background: #F8C24A;
+    padding: 10px;
+    text-align: center;
+}
